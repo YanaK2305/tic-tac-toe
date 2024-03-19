@@ -1,6 +1,6 @@
 # tic-tac-toe Игра в крестики нолики со счетом
 
-# demo:
+# demo:https://tic-tac-toe-game-js1.netlify.app/
 
 # технологии:
 
