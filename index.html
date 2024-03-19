@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="score">
+        <div class="score__item">
+          <span class="score__name">Игрок Х:</span>
+          <span class="score__value" id="scoreX">0</span>
+        </div>
+        <div class="score__item">
+          <span class="score__name">Игрок О:</span>
+          <span class="score__value" id="scoreO">0</span>
+        </div>
+        <div class="score__item">
+          <span class="score__name">Ничья:</span>
+          <span class="score__value" id="scoreDraft">0</span>
+        </div>
+      </div>
+      <ul class="cards">
+        <li class="card" id="1"></li>
+        <li class="card" id="2"></li>
+        <li class="card" id="3"></li>
+        <li class="card" id="4"></li>
+        <li class="card" id="5"></li>
+        <li class="card" id="6"></li>
+        <li class="card" id="7"></li>
+        <li class="card" id="8"></li>
+        <li class="card" id="9"></li>
+      </ul>
+      <div class="score__bottom hidden">
+        <button class="restart__btn">Начать заново</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
